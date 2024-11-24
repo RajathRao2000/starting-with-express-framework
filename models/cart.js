@@ -34,6 +34,5 @@ module.exports = class cart {
         console.log(err);
       });
     });
-    //add new product/ increase quantity
   }
 };

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "8765",
+    "title": "A Book!!!",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book! huhhu",
+    "price": "19.88"
+  },
+  {
+    "title": "hjhh",
+    "imageUrl": "asdfghjkq",
+    "description": "fghjkl",
+    "price": "7654",
+    "id": "0.4312402574948604"
+  },
+  {
+    "id": "0.7204857458304192",
+    "title": "A Book!!!!",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": " This is an awesome book!\"",
+    "price": "19"
+  }
+]

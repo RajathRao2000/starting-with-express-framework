@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Expense Tracker</title>
+  </head>
+  <body style="margin: 0">
+    <form class="form-control-lg container" onsubmit="handleFormSubmit(event)">
+      <label for="amount" class="form-label">Expence Amount:</label>
+      <input
+        type="number"
+        class="form-control"
+        name="amount"
+        id="amount"
+        required
+      />
+      <label class="form-label" for="description">Description:</label>
+      <input
+        type="description"
+        class="form-control"
+        name="description"
+        id="description"
+        required
+      />
+      <label class="form-label" for="category">Choose Category:</label>
+      <select class="form-select" id="category" required>
+        <option selected>--select--</option>
+        <option value="Fuel">Fuel</option>
+        <option value="Food">Food</option>
+        <option value="Electricity">Electricity</option>
+        <option value="Movie">Movie</option></select
+      ><br />
+      <button id="submit" class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    <!-- Add Unordered List Element Here -->
+    <ul class="container list-group" id="list"></ul>
+  </body>
+  <script src="index.js"></script>
+</html>
